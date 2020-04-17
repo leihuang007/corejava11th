@@ -8,10 +8,22 @@
 	<packaging>pom</packaging>
 	<name>Core Java 11th</name>
 	<description>Core Java 11th Source Code</description>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>13</source>
+					<target>13</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
-	<properties>
-		<maven-compiler-source>14</maven-compiler-source>
-		<maven-compiler-target>14</maven-compiler-target>
-	</properties>
-
+	<modules>
+		<module>v1ch02</module>
+	</modules>
 </project>
