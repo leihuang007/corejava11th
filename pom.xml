@@ -25,5 +25,6 @@
 
 	<modules>
 		<module>v1ch02</module>
+		<module>v1ch03</module>
 	</modules>
 </project>
